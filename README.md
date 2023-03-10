@@ -1,3 +1,15 @@
+# `fetchers`
+
+This repro demonstrations how multiple `useFetcher` instances on screen that cause duplicate `loader` function revalidations will not de-dupe and cancel previous in-flight `loader` revalidations:
+
+[Video of this behavior on Firefox](firefox.mov)
+
+While Firefox is my preferred browser of choice, the same behavior occurs in Chrome:
+
+[Video of the same behavior on Chrome](chrome.mov)
+
+It _does_ seem like the same `useFetcher` will de-dupe and cancel its own in-flight `loader` revalidations but more than one `useFetcher` that revalidate the same `loader` will not de-dupe those duplicate revalidations.
+
 # Welcome to Remix!
 
 - [Remix Docs](https://remix.run/docs)
