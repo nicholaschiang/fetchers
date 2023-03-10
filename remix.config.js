@@ -4,6 +4,7 @@ module.exports = {
     v2_routeConvention: true,
   },
   ignoredRouteFiles: ["**/.*"],
+  serverDependenciesToBundle: ['nanoid'],
   // appDirectory: "app",
   // assetsBuildDirectory: "public/build",
   // serverBuildPath: "build/index.js",

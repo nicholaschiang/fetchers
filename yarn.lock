@@ -7442,6 +7442,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"nanoid@npm:^4.0.1":
+  version: 4.0.1
+  resolution: "nanoid@npm:4.0.1"
+  bin:
+    nanoid: bin/nanoid.js
+  checksum: 21022a7910aa690cb05872c07f0c4a317dfe2aa79cc2b5e4ab41d17476e23d973d24c683206d6fa7e1b56bf657cf5dfbc0f1cac7d596bcd2dea0f49635316628
+  languageName: node
+  linkType: hard
+
 "natural-compare-lite@npm:^1.4.0":
   version: 1.4.0
   resolution: "natural-compare-lite@npm:1.4.0"
@@ -8723,6 +8732,7 @@ __metadata:
     "@types/react-dom": ^18.0.8
     eslint: ^8.27.0
     isbot: ^3.6.5
+    nanoid: ^4.0.1
     react: ^18.2.0
     react-dom: ^18.2.0
     typescript: ^4.8.4
